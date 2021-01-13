@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+    <DatePicker
+        android:id="@+id/dp_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="-30dp"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:scaleX="1"
+        android:scaleY="1"
+        />
+
+    <TimePicker
+        android:id="@+id/tp_timepicker"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginRight="-30dp"
+        android:scaleX="0.8"
+        android:scaleY="0.7"
+        android:timePickerMode="spinner"
+        />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/date_time_set"
+            android:layout_weight="0.6"
+            android:layout_width="match_parent"
+            android:text="Set"
+            android:layout_height="100dp"
+            android:layout_margin="20px"
+            />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_weight="0.6"
+            android:layout_width="match_parent"
+            android:text="Cancel"
+            android:layout_height="100dp"
+            android:layout_margin="20px"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
